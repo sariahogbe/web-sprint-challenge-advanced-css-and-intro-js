@@ -134,17 +134,12 @@ button:hover{
 .artist img{
     width:100%;
 }
-@media(max-width: 500px){
+/* media query starts */
+@media (max-width: 500px){
     h1{
         font-size: 3.0rem;
         margin-top: 3%;
        
-    }
-    .title-container div{
-        max-height: 30vh;
-        width: 100%;
-        border-bottom: 2px solid black; 
-        
     }
     nav{
         width: 60%;
@@ -152,6 +147,13 @@ button:hover{
         font-size: 1rem;
 
     }
+    .title-container div{
+        max-height: 30vh;
+        width: 100%;
+        border-bottom: 2px solid black; 
+        
+    }
+    
     .artists-container{
         display: flex;
         flex-wrap: wrap;
@@ -166,3 +168,4 @@ button:hover{
         height: 20vh;
     }
 }
+/* media query ends*/
